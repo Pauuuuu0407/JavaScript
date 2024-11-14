@@ -1,0 +1,35 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30 0 100px;
+    text-align: center;
+    background: black;
+}
+h1{
+    color:mediumorchid;
+    font-size: 52px;
+}
+h2{
+    color: mediumorchid;
+    font-size: 40px;
+}
+p{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+button{
+    background: transparent;
+    color: mediumorchid;
+    border: 2px solid mediumorchid;
+    padding: 14px 40px;
+    border-radius: 50px;
+    margin: 20px 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+button:hover{
+    background: mediumorchid;
+    color: #000;
+    border-radius: 0;
+}
